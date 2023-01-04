@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  margin-right: 90px;
+}
+
+.navbar > p {
+  padding: 20px;
+  text-transform: capitalize;
+  font-size: 1.5vw;
+  color: #404040;
+}
+
+#black {
+  color: black;
+}
+
+.background {
+  background: url("../resource/background-image.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.sec-1 {
+  width: 40%;
+  padding: 100px 100px 0 90px;
+  height: 60%;
+}
+
+.sec-1 > h1,
+.sec-1 > h2 {
+  font-size: 2vw;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.sec-1 > p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.3vw;
+  line-height: 24px;
+  width: 140%;
+  /* border: 2px solid red ; */
+  height: 70%;
+  padding: 0 60px 0 0;
+}
+
+.sec-1 > button {
+  width: 30%;
+  height: 40px;
+  text-transform: capitalize;
+  background: transparent;
+  margin-top: 10px;
+  border: 1px solid #404040;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+}
+
+.fa-twitter,
+.fa-instagram,
+.fa-youtube {
+  font-size: 2vw;
+  color: #404040;
+  margin: 15px;
+}
+
+/* section 2 ABOUT ME */
+
+.sec-2 {
+  display: flex;
+}
+
+.img-cont {
+  padding: 40px 0 10px 100px;
+}
+
+.img-1 {
+  width: 100%;
+  height: 100%;
+}
+.text {
+  padding: 0 0 0 30px;
+  width: 200%;
+  height: 40%;
+}
+
+.text > h1 {
+  padding: 60px 0 0 20px;
+  font-size: 2vw;
+  text-transform: capitalize;
+}
+
+.text-para > p {
+  padding: 15px 25px;
+  font-size: 1.2vw;
+  line-height: 24px;
+}
+
+/* section 3 GALLERY  */
+
+.center > h2 {
+  font-size: 2vw;
+  text-transform: capitalize;
+}
+
+.center > p {
+  font-size: 1.3vw;
+}
+
+.center > h2,
+.center > p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.img-container {
+  padding: 50px 80px 0 70px;
+}
+
+.img-2 {
+  width: 30%;
+  height: 75vh;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.butt-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.butt-1 > button {
+  width: 10%;
+  height: 50px;
+  border: 1px solid #404040;
+  text-transform: capitalize;
+  background: #f2f2f2;
+  margin: 20px 0;
+}
+
+.fa-arrow-right-long {
+  padding-left: 20px;
+}
+
+.img-3 {
+  width: 50%;
+  height: 20vh;
+  margin-top: 45px;
+}
+
+.img-container-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 80px 50px 70px;
+}
+
+.last-cont {
+  display: flex;
+  padding: 10px 120px 20px 80px;
+  margin: 20px 0 0 0;
+}
+.input-cont {
+  width: 200%;
+  padding-top: 40px;
+  margin: 0 35px;
+}
+
+.img-4 {
+  width: 95%;
+  height: 80%;
+}
+
+input {
+  display: inline-block;
+  width: 80%;
+  height: 8vh;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: 1px solid #404040;
+}
+
+#message {
+  height: 30vh;
+}
+
+label {
+  display: inline-block;
+  text-transform: capitalize;
+  width: 15%;
+  font-size: 1.5vw;
+}
+
+.last-butt {
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+button {
+  width: 50%;
+  height: 8vh;
+  text-transform: capitalize;
+  background: transparent;
+  border: 1px solid #404040;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.2vw;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.bottom-icons {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 512px) {
+
+  .navbar {
+    display: none;
+  }
+
+  .background {
+    background-position: top;
+    background-size: cover;
+  }
+
+  .sec-1 {
+    width: 450px;
+    padding: 500px 20px 0 25px;
+    color: white;
+    height: 800px;
+  }
+
+  .sec-1 > h1,
+  .sec-1 > h2 {
+    font-size: 8vw;
+    text-transform: none;
+  }
+
+  .sec-1 > p {
+    line-height: 18px;
+    width: 380px;
+    height: 150px;
+    font-size: 3.5vw;
+    padding: 0;
+  }
+
+  .sec-1 > button {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .img-cont {
+    padding: 92px 5px 0 20px;
+  }
+
+  .img-1 {
+    width: 150px;
+    height: auto;
+  }
+
+  .text > h1 {
+    margin-left: 40px;
+    font-size: 7vw;
+    margin-bottom: 10px;
+    padding: 30px;
+    line-height: 13.5px;
+  }
+
+  .text {
+    padding: 0 0 0 10px;
+  }
+
+  .text-para {
+    width: 280px;
+  }
+
+  .text-para > p {
+    font-size: 4vw;
+    margin-bottom: 20px;
+    width: 260px;
+    padding: 0 5px;
+  }
+
+  .center > h2 {
+    font-size: 6vw;
+    margin-top: 30px;
+  }
+
+  #font-sm {
+    font-size: 12px;
+  }
+
+  .center > p {
+    font-size: 13px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .img-container {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+
+  .img-2 {
+    width: 300px;
+    height: 350px;
+  }
+
+  .butt-1 > button {
+    width: 35%;
+  }
+
+  .img-container-2 {
+    padding: 0 30px;
+  }
+
+  .img-3 {
+    width: 100%;
+    height: 30%;
+  }
+  .marg {
+    margin-left: 20px;
+  }
+
+  .img-4 {
+    display: none;
+  }
+
+  .last-cont {
+    padding: 0 15px;
+  }
+
+  .input-cont {
+    width: 300%;
+    padding: 0;
+    margin: 0;
+  }
+
+  input {
+    display: block;
+    margin-top: 5px;
+    width: 400px;
+    height: 5vh;
+  }
+
+  label {
+    font-size: 5vw;
+  }
+
+  #message {
+    height: 15vh;
+  }
+
+  .last-butt {
+    margin-left: 0;
+  }
+  button {
+    width: 250px;
+    height: 5vh;
+    margin-bottom: 30px;
+  }
+
+  footer p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .fa-twitter,
+  .fa-instagram,
+  .fa-youtube {
+    font-size: 4.5vw;
+  }
+}
